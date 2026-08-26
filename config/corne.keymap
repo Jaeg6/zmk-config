@@ -63,10 +63,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&HML ESCAPE TAB   &trans                          &mt AMPERSAND NUMBER_7    &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp LEFT_SHIFT    &trans                          &mt DOLLAR NUMBER_4       &mt PERCENT NUMBER_5   &mt CARET NUMBER_6             &trans       &trans            &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans                 &kp GRAVE
-&kp LEFT_CONTROL  &mt RIGHT_PARENTHESIS NUMBER_0  &mt EXCLAMATION NUMBER_1  &mt AT NUMBER_2        &mt HASH NUMBER_3              &trans       &trans            &trans             &trans          &trans                &kp BACKSLASH          &trans
-                                                                            &trans                 &trans                         &kp SPACE    &kp RET           &trans             &kp RALT
+&HML ESCAPE TAB   &trans                          &mt AMPERSAND NUMBER_7    &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp ASTERISK     &kp UP_ARROW    &trans           &trans         &kp BSPC
+&kp LEFT_SHIFT    &trans                          &mt DOLLAR NUMBER_4       &mt PERCENT NUMBER_5   &mt CARET NUMBER_6             &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &kp GRAVE
+&kp LEFT_CONTROL  &mt RIGHT_PARENTHESIS NUMBER_0  &mt EXCLAMATION NUMBER_1  &mt AT NUMBER_2        &mt HASH NUMBER_3              &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp PIPE        &kp AMPERSAND    &kp BACKSLASH  &trans
+                                                                            &trans                 &trans                         &kp SPACE               &kp RET                &trans           &kp RALT
             >;
         };
 
