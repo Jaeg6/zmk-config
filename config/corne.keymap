@@ -42,7 +42,7 @@
 
         rbracecombo {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <18 19>;
+            key-positions = <19 18>;
         };
 
         lbracecombo {
@@ -52,22 +52,22 @@
 
         rparencombo {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <6 7>;
+            key-positions = <7 19>;
         };
 
         lparancombo {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <4 5>;
+            key-positions = <4 16>;
         };
 
         rbracketcombo {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <30 31>;
+            key-positions = <31 19>;
         };
 
         lbracketcombo {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <29 28>;
+            key-positions = <28 16>;
         };
     };
 
