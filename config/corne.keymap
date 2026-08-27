@@ -97,10 +97,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans                          &mt AMPERSAND NUMBER_7    &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp ASTERISK     &kp UP_ARROW    &kp DELETE       &trans         &kp BSPC
-&trans  &trans                          &mt DOLLAR NUMBER_4       &mt PERCENT NUMBER_5   &mt CARET NUMBER_6             &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &kp GRAVE
-&trans  &mt RIGHT_PARENTHESIS NUMBER_0  &mt EXCLAMATION NUMBER_1  &mt AT NUMBER_2        &mt HASH NUMBER_3              &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp PIPE        &kp AMPERSAND    &kp BACKSLASH  &trans
-                                                                  &trans                 &trans                         &kp SPACE               &kp RET                &trans           &kp RALT
+&trans  &trans                           &HML AMPERSAND NUMBER_7    &HML ASTERISK NUMBER_8  &HML LEFT_PARENTHESIS NUMBER_9  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp ASTERISK     &kp UP_ARROW    &kp DELETE       &trans         &kp BSPC
+&trans  &trans                           &HML DOLLAR NUMBER_4       &HML PERCENT NUMBER_5   &HML CARET NUMBER_6             &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &kp GRAVE
+&trans  &HML RIGHT_PARENTHESIS NUMBER_0  &HML EXCLAMATION NUMBER_1  &HML AT NUMBER_2        &HML HASH NUMBER_3              &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp PIPE        &kp AMPERSAND    &kp BACKSLASH  &trans
+                                                                    &trans                  &trans                          &kp SPACE               &kp RET                &trans           &kp RALT
             >;
         };
 
